@@ -32,3 +32,13 @@ Each project simulates a real-world problem and applies SQL skills to solve it.
 - SQL
 
 ---
+
+## Next Steps
+
+Automated Alerts: Integrate with a notification system to automatically alert the Operations team when a supplier’s risk score crosses a predefined threshold.
+
+Advanced Risk Factors: Expand the risk model to include additional factors like supplier financial health, contract compliance, and external market conditions.
+
+Real-Time Data Integration: Incorporate real-time data feeds to continuously update supplier performance metrics and provide dynamic, up-to-date risk assessments.
+
+User Interface: Build a simple dashboard in Power BI for to visualise supplier risk scores in a user-friendly interface, making it easier for Tim et al to act on the data.
