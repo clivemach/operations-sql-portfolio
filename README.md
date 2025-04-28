@@ -1,32 +1,34 @@
-# Supplier Risk Monitoring - SQL Portfolio Project
+This repository showcases SQL-based solutions to common business operations challenges.
 
 ## Note
 This project demonstrates the use of SQL to identify operational risks in supplier performance. It is for information purposes in support of the project portfolio of Clive Machingaifa. To maintain confidentiality, certain details & code have been omitted or altered.
 
-## Objective
-Monitor supplier delivery and quality performance to detect potential risks early.
+## Projects Included
 
-## Database Structure
-- **Suppliers**: List of suppliers.
-- **Deliveries**: Records of deliveries made by suppliers.
-- **Quality Checks**: Results of quality inspections on deliveries.
+### 1. Supplier Risk Monitoring
+- **Goal:** Identify operational risks early by analyzing supplier performance (timeliness, delivery accuracy, and quality).
+- **Skills Demonstrated:** 
+  - Database table creation
+  - Data insertion
+  - Advanced SQL querying
+  - Risk scoring and ranking
+- **Folder:** `supplier-risk-monitoring/`
 
-## Key Risk Indicators
-- Late deliveries
-- Under-deliveries (delivered less than ordered)
-- Failed quality checks
+---
 
-## Risk Scoring
-Each supplier receives a risk score based on:
-- 40% weight: Number of late deliveries
-- 30% weight: Number of under-deliveries
-- 30% weight: Number of failed quality checks
+## About
 
-Suppliers with higher risk scores are prioritized for operational review.
+This portfolio was built to demonstrate my SQL proficiency in operational settings, including:
+- Risk identification and mitigation
+- Process monitoring
+- Operational performance analysis
 
-## Files
-- `create_tables.sql` - Script to create database tables
-- `insert_sample_data.sql` - Script to populate tables with sample data
-- `supplier_risk_query.sql` - SQL query to calculate and rank supplier risk
+Each project simulates a real-world problem and applies SQL skills to solve it.
+
+---
+
+## Technologies
+- PostgreSQL (Postgres)
+- SQL
 
 ---
